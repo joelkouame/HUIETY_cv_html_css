@@ -1,0 +1,146 @@
+
+.info{
+    margin-left: -20px;
+    font-size: large;
+}
+.info:hover{
+    animation: alternate;
+    color: blueviolet;
+    }
+
+.mail{
+list-style-type: square;
+}
+
+.infoobjectif{
+    font-size: large;
+    margin-left: 15px;
+}
+.infoobjectif:hover{
+    animation: alternate;
+    color: blueviolet;
+    }
+
+
+.domicile{
+ list-style-type: square;
+}
+
+.detailscontacte{
+    padding-left: -1vh;
+    font-size: large;
+    margin-left: -5%;
+}
+.detailscontacte:hover{
+    animation: alternate;
+    color: aqua;
+    }
+
+
+.detailscompetences{
+    padding-left: -1vh;
+    font-size: large;
+    margin-left: -5%;
+    margin-bottom: 5vh;
+}
+.detailscompetences:hover{
+    animation: alternate;
+    color: aqua;
+    }
+
+
+.detailsmatrimonial{
+    padding-left: -1vh;
+    font-size: large;
+    margin-left: -5%;
+}
+.detailsmatrimonial:hover{
+    animation: alternate;
+    color: aqua;
+    }
+
+
+.details{
+    padding-left: -1vh;
+    font-size: large;
+    margin-left: -5%;
+}
+.details:hover{
+    animation: alternate;
+    color: aqua;
+    }
+
+
+
+
+h2{
+    text-align: center;
+    color: white;
+    border-left: green solid 6px;
+    border-top: green solid 6px;
+    border-right: solid green 6px;
+}
+h2:hover{
+    text-decoration: underline;
+   color: red;
+}
+body{
+    position: absolute;
+    left: 20%;
+
+    
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: pink;
+}
+
+#partiegauche{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-left: 6px solid green;
+border-bottom: green solid 6px;
+border-radius: 10px;
+box-shadow: -8px 8px 10px white;
+font-size: small;
+position: absolute;
+top: 52%;
+width: 400px;
+padding-bottom: 0%;
+padding-left: 0%;
+padding-top: 0.6%;
+display: inline-block;
+}
+
+
+#partiedroite{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: green solid 4px;
+    border-top: solid green 4px;
+    border-bottom: green solid 12px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px white;
+    font-size: smaller;
+    position: absolute;
+    left:50%;
+    top: 52%;
+    width: 400px;
+    background-color: green;
+    display: inline-block;
+}
+
+.gauche{
+display: inline-block;
+}
+
+.droite{
+display: inline-block;
+}
